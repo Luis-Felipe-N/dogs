@@ -1,0 +1,27 @@
+.headerContainer {
+    box-shadow: 0 1px 1px rgba($color: #000000, $alpha: 0.1);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: #fff;
+
+    nav {
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo {
+            padding: .5rem;
+        }
+
+        .login {
+            color: var(--color-500);
+            display: flex;
+            align-items: center;
+            font-size: 17px;
+            gap: .5rem;
+        }
+    }
+}

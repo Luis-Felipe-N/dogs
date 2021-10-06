@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1.2rem;
+    gap: .2rem;
+    margin-bottom: 1rem;
+    
+    input {
+        width: 100%;
+        max-width: 400px;
+        height: 45px;
+        border-radius: 7px;
+        border: 0;
+        padding: 0 .8rem;
+        background-color: #EEEEEE;
+        transition: .2s;
+
+        &:hover, &:focus {
+            outline: 0;
+            box-shadow: 0 0 0 1px var(--color-primary), 0 0 0 4px #fea;
+        }
+    }
+
+  
+}
